@@ -1,0 +1,93 @@
+.page-layout {
+    display: flex;
+    height: 100vh;
+    
+}
+.info-container {
+    background-color: white;
+    width: 50%;
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+.info-section {
+    display: none;
+}
+.info-section.active {
+    display: block;
+}
+.map-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    
+}
+.map-image {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.hotspot {
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(225, 0, 0, 0.3);
+}
+.borealforest1 {
+    width: 330px;
+    height: 80px;
+    top: 400px;
+    left: 100px;
+    transform: rotate(32deg);
+}
+.borealforest2 {
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    left: 500px;
+    transform: rotate(-45deg);
+}
+.tiaga1 {
+    width: 330px;
+    height: 40px;
+    top: 320px;
+    left: 60px;
+    transform: rotate(32deg);
+}
+.tiaga2 {
+    width: 100px;
+    height: 50px;
+    top: 430px;
+    left: 370px;
+    transform: rotate(32deg);
+}
+.tiaga3 {
+    width: 180px;
+    height: 50px;
+    top: 415px;
+    left: 450px;
+    transform: rotate(-45deg);
+}
+.tundra1 {
+    width: 415px;
+    height: 250px;
+    top: 130px;
+    left: 170px;
+    transform: rotate(32deg);
+}
+.rockymountains {
+    width: 90px;
+    height: 259px;
+    top: 269px;
+    left: 25px;
+    transform: rotate(-10deg);
+}
+.badlands {
+    width: 30px;
+    height: 5px;
+    top: 500px;
+    left: 165px;
+    transform: rotate(32deg);
+
+}
