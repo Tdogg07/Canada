@@ -32,7 +32,7 @@
 .hotspot {
     position: absolute;
     cursor: pointer;
-    background-color: rgba(225, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.0);
 }
 .borealforest1 {
     width: 330px;
